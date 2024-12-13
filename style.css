@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+   justify-content: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.hero {
+    background-image: url(../project/sleek-highspeed-train-travels-high-speed-through-modern-city-with-towering-skyscrapers-background-highspeed-train-traveling-through-futuristic-cityscape-business-trip_538213-111463.jpg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    background: #241406;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 30px 0;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #073744;
+}
+.about, .contact {
+    padding: 60px 0;
+    background: #ffffff;
+    text-align: center;
+}
+.trip {
+    margin: 30px auto;
+    padding: 60px;
+    background-color: rgb(210, 223, 223);
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trip img {
+    max-width: 300px;
+    height: auto;
+    margin-left: 20px; /* ضبط المسافة حول الصورة */
+}
+.trip .text {
+    flex: 1; /* استغلال المساحة المتاحة */
+}
+
+.service-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    
+}
+.service-item:hover {
+    transform: translateY(-10px);
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #35424a;
+    color: #ffffff;
+}
+
+
+.a12{
+    text-align: center;
+    background-color: white;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+   
+}
+@media (max-width: 767px) { 
+    nav ul {
+        flex-direction: column;
+        align-items: center; 
+    }
+    nav ul li {
+        margin: 10px 0; 
+    }
+    .trip {
+        flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+        padding: 30px; /* تقليل padding */
+    }
+    .trip img {
+        max-width: 100%; /* تأكد من أن الصورة تملأ العرض */
+        height: auto;  
+        margin: 0; /* إزالة الهامش */
+    }
+    .about .btn, .trip .btn {
+        width: 70%;
+        margin: 10px auto; /* توسيط الزر */
+    }
+    .grid {
+        flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+        padding: 20px; /* إضافة padding */
+    }
+}
+

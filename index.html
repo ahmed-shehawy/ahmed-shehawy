@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Book Your Trip</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">our trips</a></li>
+                    <li><a href="#other servies">Other Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 class="welcome">Welcome to Your Comfort Zone</h1>
+                <h3>Your Travel is in Safety and Comfort</h3>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Choose the Right Trip for You</h2>
+                <p>Take advantage of the end-of-year discounts!</p>
+                <div class="trip" id="alex">
+                    <div class="text">
+                        <h3>Alexandria Trip</h3>
+                        <h4>The Next Trip: 20/12/2024</h4>
+                        <h4>Cost: 300 L.E</h4>
+                        <button class="btn">Learn More</button>
+                    </div>
+                    <div class="image">
+                        <img src="360_F_190924977_6Mqy2TMGEcsvCpaNWBBYYjO8FRef5XK1.jpg" alt="Alexandria Trip">
+                    </div>
+                </div>
+                <div class="trip" id="pyramids">
+                    <div class="text">
+                        <h3>Pyramids Trip</h3>
+                        <h4>The Next Trip: 29/12/2024</h4>
+                        <h4>Cost: 350 L.E</h4>
+                        <button class="btn">Learn More</button>
+                    </div>
+                    <div class="image">
+                        <img src="istockphoto-1143935679-612x612.jpg" alt="Pyramids Trip">
+                    </div>
+                </div>
+                <div class="trip" id="fayoum">
+                    <div class="text">
+                        <h3>Fayoum Trip</h3>
+                        <h4>The Next Trip: 25/12/2024</h4>
+                        <h4>Cost: 500 L.E</h4>
+                        <button class="btn">Learn More</button>
+                    </div>
+                    <div class="image">
+                        <img src="istockphoto-496657458-612x612.jpg" alt="Fayoum Trip">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>
+            <h2 class="a12" id="other servies">Other Services</h2>
+        </div>
+        <section class="grid">
+            <div class="contener-grid">
+
+                    <div class="service-item">
+                        <h3>External Trips</h3>
+                        <p>Trips outside Egypt</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>scolarship</h3>
+                        <p>scolarships Outside Egypt</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Consultations</h3>
+                        <p>Consultations on all Trips</p>
+                    </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2> Book Now</h2>
+                <form id="contactForm" class="pp00">
+                    <label for="name" class="name">your name</label>
+                    <input type="text"  name="name" required><br>
+                    <label for="place">your trip place</label>
+                    <input type="text"  name="place" required><br>
+                    <label for="date">your prefer date</label>
+                    <input type="date"  name="date" required>
+                    <p></p>
+                    <button type="submit" class="btn">send</button >
+                </form>
+                <p id="responseMessage"></p>
+            </div>
+        </section>
+    <footer>
+        <div class="container">
+            <p> All right reserved © 2024</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
