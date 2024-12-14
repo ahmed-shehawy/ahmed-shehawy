@@ -68,10 +68,10 @@ nav a {
 .trip img {
     max-width: 300px;
     height: auto;
-    margin-left: 20px; /* ضبط المسافة حول الصورة */
+    margin-left: 20px;
 }
 .trip .text {
-    flex: 1; /* استغلال المساحة المتاحة */
+    flex: 1;
 }
 
 .service-item {
@@ -113,21 +113,21 @@ footer {
         margin: 10px 0; 
     }
     .trip {
-        flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+        flex-direction: column;
         padding: 30px; /* تقليل padding */
     }
     .trip img {
-        max-width: 100%; /* تأكد من أن الصورة تملأ العرض */
+        max-width: 100%;
         height: auto;  
-        margin: 0; /* إزالة الهامش */
+        margin: 0; 
     }
     .about .btn, .trip .btn {
         width: 70%;
-        margin: 10px auto; /* توسيط الزر */
+        margin: 10px auto; 
     }
     .grid {
-        flex-direction: column; /* تغيير الاتجاه إلى عمودي */
-        padding: 20px; /* إضافة padding */
+        flex-direction: column; 
+        padding: 20px; 
     }
 }
 
